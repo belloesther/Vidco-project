@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> -->
+<!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Story+Script&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <title>Forgot Password</title>
+    <style>
+        body{
+            background-color: #eee5e5;
+        }
+        section{
+            text-align: center;
+            background-color: white;
+            /* margin:60px 0; */
+            padding: 30px;
+        }
+        .forgotPassword{
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 120%;
+            font-family: Rubik;
+            text-align: center;
+            color: #474141;
+
+        }
+        .email-text{
+            font-family: Rubik;
+            line-height: 120%;
+            color: #474141;
+            font-size: 13px;
+        }
+        .email-input{
+            border-radius: 30px;
+            padding:3px 90px;
+            color: #949191
+        }
+        .backtosign{
+            font-family: Rubik;
+            line-height: 120%;
+            color: #918e8e;
+            font-size: 10px;
+            margin:25px ;
+        }
+        .backtosign a{
+            text-decoration: none;
+        }
+        .backtosign:hover{
+            text-decoration: underline;
+        }
+        .send-btn{
+            border: none;
+            border-radius: 30px;
+            padding:5px 160px;
+            background: linear-gradient(to right, rgba(237, 27, 255,1), rgba(20, 30, 255, 1) );
+            color: white;
+            margin: 10px;
+        }
+        hr{
+            width: 55%;
+        }
+        .icon-div{
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            font-size: 10px;
+            margin-bottom: 30px;
+        }
+        .have-an-account{
+            color: #949191;
+            font-size: 12px;
+        }
+        .signup-btn{
+            border: 1px solid;
+            border-radius: 30px;
+            padding: 3px 150px;
+            background-color: white;
+            color: #949191 ;
+        }
+ 
+        footer{
+            background-color: white;
+            margin-top: 100px;
+        }
+         footer .navigation{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin:0;
+        }
+        ul {
+            list-style: none; 
+            display: flex;
+            justify-content: space-between;
+            flex: 1;
+            margin: 0;
+            padding: 0;
+        }
+        .footer-left, .footer-right{
+            display: flex;
+            align-items: center;
+        } 
+        ul li{
+            margin: 0 4px;
+        }
+        ul li a{
+            text-decoration: none;
+            font-size: 13px;
+            padding: 0;
+            margin: 0;
+            color: #949191;
+        }
+        footer img{
+            width: 70px;
+            display: flex;
+            justify-content: center;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <section>
+    <div>
+        <h1 class="forgotPassword">Forgot Password</h1>
+
+        <p class="email-text">Enter Email Address</p>
+        <input type="email" class="email-input" placeholder="example@gmail.com">
+
+        <p class="backtosign"><a href="#">Back to sign in</a></p>
+
+        <button class="send-btn">Send</button>
+        <hr> 
+
+        <div class="icon-div">
+            <p><i class="fa-brands fa-facebook"></i></p>
+            <p><i class="fa-brands fa-google"></i></p>
+            <p><i class="fa-brands fa-apple"></i></p>
+        </div>
+
+        <p class="have-an-account">Do you have an account?</p>
+        <button class="signup-btn">Sign Up</button>
+    </div>
+
+    <footer>
+            <div class="navigation">
+            <p><img src="vidcologo.jpg" alt="vidco-logo" width="150"></p>
+
+            <ul>
+                <div class="footer-left">
+                <li><a href="aboutvidco.html">About</a></li>
+                <li><a href="#">Vidco</a></li>
+                </div>
+
+                <div class="footer-right">
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Terms</a></li>
+                </div>
+            </ul>
+            </div>
+    </footer>
+    </section>
+</body>
+</html>
